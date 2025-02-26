@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project (shudu)
+aux_source_directory(./src SRC)
+include_directories(./inc)
+add_executable(shudu ${SRC})

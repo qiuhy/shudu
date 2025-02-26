@@ -1,0 +1,1 @@
+int check_question(int *question,int output);
